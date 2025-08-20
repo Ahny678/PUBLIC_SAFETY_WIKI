@@ -1,0 +1,19 @@
+/* variables.css */
+
+:root {
+  /* Colors */
+  --primary-color: #0070f3;
+  --secondary-color: #ff4081;
+  --background-color: #f8e9e9;
+  --text-color: #333;
+
+  /* Spacing */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+
+  /* Fonts */
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+}
