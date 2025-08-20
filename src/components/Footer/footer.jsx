@@ -8,11 +8,8 @@ function Footer() {
         <hr />
         <div className={styles.footer}>
           <div className={styles.footerLeft}>
-            <p>
-              {" "}
-              @2025 JVision. Any sightings of unnatural occurences? Interested
-              in protecting humanking? Contact us{" "}
-            </p>
+            <p>@2025 JVision</p>
+            <p>Any sightings of unnatural events? Contact us</p>
           </div>
           <div className={styles.footerRight}>
             <a

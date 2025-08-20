@@ -1,0 +1,29 @@
+.NavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 3rem;
+}
+Title {
+  font-size: 3rem;
+}
+
+.NavList {
+  padding: var(--spacing-md);
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+  align-items: center;
+  font-size: var(--font-size-lg);
+}
+
+.NavList li:hover {
+  color: red;
+}
+
+.ActiveLink {
+  background-color: var(--secondary-color);
+  color: white;
+}

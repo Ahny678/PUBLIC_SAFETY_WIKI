@@ -4,10 +4,12 @@ function Feature({ image = "def.png", name = "def", desc = "desc" }) {
     <>
       <div className={styles.container}>
         <div className={styles.image}>
-          <img src={image} alt={name} />
+          <div className={styles.image}>
+            <img src={image} alt={name} />
+          </div>
         </div>
         <div className={styles.info}>
-          <h3>{name}</h3>
+          <h2>{name}</h2>
           <p>{desc}</p>
         </div>
       </div>

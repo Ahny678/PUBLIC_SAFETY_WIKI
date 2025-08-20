@@ -6,8 +6,10 @@ function Hero({ image = "def.jpg", title = "def", desc = "desc" }) {
         className={styles.heroSection}
         style={{ backgroundImage: `url(${image})` }}
       >
-        <h2>{title}</h2>
-        <p>{desc}</p>
+        <div className={styles.textContent}>
+          <h2>{title}</h2>
+          <p>{desc}</p>
+        </div>
       </div>
     </>
   );

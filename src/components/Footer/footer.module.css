@@ -1,0 +1,23 @@
+hr {
+  color: black;
+}
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  color: rgba(240, 248, 255, 0.299);
+}
+
+.footerRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
