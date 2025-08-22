@@ -1,10 +1,16 @@
 .NavContainer {
+  position: fixed; /* Fixes navbar to the viewport */
+  top: 0; /* Sticks it to the top */
+  left: 0; /* start from left on all view poerts*/
+  width: 100%; /* Make it span the full width */
+  z-index: 1000; /* Keeps navbar above other content */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: black;
   color: aliceblue;
-  padding: 3rem;
+  padding: 1rem 3rem;
 }
 Title {
   font-size: 3rem;

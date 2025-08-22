@@ -1,0 +1,45 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-rows: repeat(2, 300px); /* 3 equal rows, adjust px as needed */
+  gap: 10px; /* optional spacing */
+}
+.item1 {
+  grid-row: 1 / -1; /* span all rows */
+  grid-column: 1; /* put it at the left */
+  object-fit: cover;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* styles.module.css */
+.info {
+  background: rgb(59, 3, 3);
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 16px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+
+.info p {
+  margin: 6px 0;
+  padding: 4px 8px;
+  border-left: 4px solid black;
+  background: rgba(0, 0, 0, 0.02);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.info p:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  border-left: none;
+}
